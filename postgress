@@ -1,0 +1,17 @@
+Create a relational database from scratch
+
+Create, alter and delete tables from a database
+
+Insert, update and delete data from a table
+
+Retrieve data from a database using select queries
+
+Filter data using where clauses and logical operators
+
+Order and limit data retrieved from a table
+
+Use aggregate functions and group data to gain more meaningful insights from a database
+
+Relate tables together using database relationships
+
+Use SQL join queries to retrieve data from multiple tables in a single query

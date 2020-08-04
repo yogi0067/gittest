@@ -1,0 +1,236 @@
+What is /root?
+a) root filesystem
+b) home directory of the root user
+c) the directory which contains all the directories of the filesystem
+d) none of the mentioned
+
+
+Answer: b
+
+
+
+
+System binaries are stored in
+a) /sbin directory
+b) /usr/sbin directory
+c) /usr/local/sbin directory
+d) all of the mentioned
+
+
+Answer: d
+
+Superuser can change the _______ permissions of any file.
+a) owner
+b) group
+c) other
+d) all of the mentioned
+
+Answer: d
+
+Which command creates an empty file if file does not exist?
+a) cat
+b) touch
+c) ed
+d) read
+
+
+Answer: b
+
+
+
+Which command changes a file’s group owner
+a) cgrp
+b) chgrp
+c) change
+d) group
+
+
+Answer: b
+
+
+
+Command used to determine the path of an executable file is
+a) which
+b) where
+c) wexec
+d) what
+
+
+Answer: a
+
+
+Which of these commands could you use to show one page of output at a time?
+a) less
+b) sed
+c) pause
+d) grep
+
+
+Answer: a
+
+
+
+---------------------------------------------------
+
+PostgreSQL is
+A. a relational database management system.
+B. a hierarchical database management system.
+C. a network-type database management system.
+D. an XML database management system.
+Ans: A
+
+PostgreSQL used what model of communication?
+A. Client/Server
+B. Network
+C. Peer-to-Peer
+D. Push Model
+Ans: A
+
+PostgreSQL has many modern features including:
+A. Complex SQL queries
+B. SQL Sub-selects
+C. All of the above
+D. Views
+Ans: C
+
+
+What do you call the application that makes requests of the PostgreSQL server?
+A. Workstation
+B. Client
+C. Thin Client
+D. Interface
+Ans: B
+
+The basic psql command to list tables is?
+A. \do
+B. \dT
+C. \h
+D. \dt
+Ans: D
+
+In PostgreSQL, a named collection of tables is called what?
+A. Trigger
+B. View
+C. Diagram
+D. Schema
+Ans: D
+
+To create a database in PostgreSQL, you must have the special CREATEDB privilege or
+A. be an admin
+B. have a script do it.
+C. be a superuser.
+D. the special CREATETBL privilege
+Ans: C
+
+To restore a PostgreSQL backup created with pg_dump, the following may be used:
+A. $ psql -F database_dump.psql database_name
+B. $ psql -R database_dump.psql database_name
+C. $ psql -f database_dump.psql database_name
+D. $ psql -r database_dump.psql database_name
+Ans: C
+
+
+---------------------------------------------------
+MongoDB is a _________ database that provides high performance, high availability, and easy scalability.
+a) graph
+b) key value
+c) document
+d) all of the mentioned
+
+
+Answer: c
+
+
+
+Dynamic schema in MongoDB makes ____________ easier for applications.
+a) inheritance
+b) polymorphism
+c) encapsulation
+d) none of the mentioned
+
+
+Answer: b
+
+MongoDB documents are composed of field-and-value pairs and have the following structure?
+a) field1:; value1
+b) field1: value1;
+c) field1: value1
+d) none of the mentioned
+
+
+Answer: c
+
+Which of the following command can be used to check the size of a collection named posts?
+
+A - db.posts.stats()
+
+B - db.posts.findStats()
+
+C - db.posts.find({stats:1})
+
+D - db.stats({ collection : posts })
+
+Answer : A
+
+The MongoDB is written in .................... language.
+1. C++
+2. Javascript
+3. C
+4. All of the above
+
+Ans :4 All of the above
+
+
+--------------------------
+Each kafka partition has one server which acts as the _________
+A. leaders 
+B. followers
+C. staters
+D. All of the mentioned
+
+
+Answer: Option A
+
+What are consumers or users?
+A. If all consumer instances have the same consumer set, then this works like a conventional queue adjusting load over the consumers
+B. If all customer instances have dissimilar consumer groups, then this works like a publish-subscribe and all messages are transmitted to all the consumers
+C. Both A and B
+D. None
+
+Answer: Option C
+
+Kafka maintains feeds of messages in categories called
+A. Topics
+B. Chunks
+C. domains
+D. messages
+
+Answer: Option A
+-------------------------------------------------------------
+Which of the guarantee is provided by Zookeeper?
+a) Interactivity
+b) Flexibility
+c) Scalability
+d) Reliability
+View Answer
+
+Answer: d
+Explanation: Once an update has been applied, it will persist from that time forward until a client overwrites the update.
+
+Point out the correct statement.
+a) ZooKeeper can achieve high throughput and high latency numbers
+b) The fault tolerant ordering means that sophisticated synchronization primitives can be implemented at the client
+c) The ZooKeeper implementation puts a premium on high performance, highly available, strictly ordered access
+d) All of the mentioned
+
+
+Answer: c
+
+ZooKeeper itself is intended to be replicated over a sets of hosts called ____________
+a) chunks
+b) ensemble
+c) subdomains
+d) none of the mentioned
+
+
+Answer: b
